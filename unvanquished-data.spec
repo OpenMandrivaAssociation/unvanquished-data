@@ -19,7 +19,7 @@ Url:            http://unvanquished.net/
 
 Source0:     %{name}-%{version}.tar.bz2   
 BuildArch:      noarch
-Requires: unvanquished == %{version}
+#Requires: unvanquished == %{version}
 
 %description
 Players fight online in team based combat in a war of aliens against humans.
