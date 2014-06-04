@@ -1,40 +1,31 @@
-%define debug_package	%{nil}
-%define oname Unvanquished
 Name:           unvanquished-data
-Version:        0.15.0
+Version:        0.28.0
 Release:        1
 Summary:        Sci-fi RTS and FPS game
 License:        CC-BY-SA-2.5 and CC-BY-SA-3.0
 Group:          Games/Arcade
 Url:            http://unvanquished.net/
-#obtaining data files source
-# mkdir -p %{name}-%{version} && cd %{name}-%{version}
-#for file in pak{{0..9},{A..E}}.pk3; do
-#if [ ! -e $file ]; then
-#wget -O $file "http://sourceforge.net/projects/unvanquished/files/Assets/$file/download"
-#fi
-#done
-#cd ..
-# tar -jcvf %{name}-%{version}.tar.bz2 %{name}-%{version}
-
-Source0:     %{name}-%{version}.tar.bz2   
+Source1:        http://www.unvanquished.net/downloads/pkg/training/resources_0.27.1.pk3
+Source2:        http://www.unvanquished.net/downloads/pkg/unvanquished_%{version}.pk3
 BuildArch:      noarch
-#Requires: unvanquished == %{version}
+Requires:       unvanquished >= 0.25.0
 
 %description
 Players fight online in team based combat in a war of aliens against humans.
 This package only contains the game data files.
 
 %prep
-%setup -q
+#nothing to do
 
 %build
+#nothing to do
 
 %install
-mkdir -p  %{buildroot}%{_datadir}/%{oname}/main
-install -m0644 {pak0,pak1,pak2,pak3,pak4,pak5,pak6,pak7,pak8,pak9,pakA,pakB,pakC,pakD,pakE}.pk3 %{buildroot}%{_datadir}/%{oname}/main/
-install -m0644 vms-%{version}.pk3 %{buildroot}%{_datadir}/%{oname}/main/
+mkdir -p  %{buildroot}%{_datadir}/unvanquished/pkg/
+install -m0644 %{SOURCE1} "%{buildroot}%{_datadir}/unvanquished/pkg/"
+install -m0644 %{SOURCE2} "%{buildroot}%{_datadir}/unvanquished/pkg/"
 
 %files
-%{_datadir}/%{oname}/main/*.pk3
-
+%dir %{_datadir}/unvanquished
+%dir %{_datadir}/unvanquished/pkg/
+%{_datadir}/unvanquished/pkg/*.pk3
