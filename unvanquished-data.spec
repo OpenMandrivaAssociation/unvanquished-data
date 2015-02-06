@@ -1,6 +1,6 @@
 Name:           unvanquished-data
 Version:        0.28.0
-Release:        1
+Release:        2
 Summary:        Sci-fi RTS and FPS game
 License:        CC-BY-SA-2.5 and CC-BY-SA-3.0
 Group:          Games/Arcade
