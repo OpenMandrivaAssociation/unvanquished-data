@@ -1,3 +1,32 @@
 sources:
   resources_0.27.1.pk3: 975cc013af5758882a74c7663ae6d1c3dc316eeb
+  tex-all_1.0.pk3: 7321fc5186d74717d26b4714fe6e3d7e2247e16a
+  tex-all_2.0.pk3: 49ff5d423622ecf5157099ccdb4301789e8afb49
+  tex-common_2.0.pk3: b3a436af6c4f49d402ea6a924afb742f1d8c5ce7
+  tex-ej01-clean_1.0.pk3: aadf44084058e5457bc47f0e18dabd9ab31c3af9
+  tex-ej01-common_1.0.pk3: bf14a3439f1f3fc7a5417baa3fc5a019ab1a4d7e
+  tex-ej01-ice_1.0.pk3: 178866c9944811d227b76dbc79b0e1511b94acc7
+  tex-ex_1.0.pk3: 1a92d0457903ad2dbb33f5d282c4e23dd168b199
+  tex-exm_1.0.pk3: 618b067e5e37ea651fa07f4766444c0323a4a2ed
+  tex-pk01_1.0.pk3: ce63898ce922b37efe4b4667644952ba9b137f77
+  tex-pk02_1.0.pk3: 3364c83ef78fbfe2080f18919b2a68d64a049c11
+  tex-space_1.0.pk3: 3a5cb557280e0d2dce70a954f1e5897aa90097ae
+  tex-tech_1.0.pk3: 62f3b822cc2dd3f4e531d4a71988231c95c4752f
+  tex-trak5_1.0.pk3: 7e02b02f2ff0882741b75ed02e02f1a5404ff805
+  unvanquished_0.25.0.pk3: af1154f1ce8270abbb41478af29ddc59f6017986
+  unvanquished_0.26.0.pk3: a82e099a65ec8f29a19049b297bd6c58ac791064
+  unvanquished_0.27.0.pk3: 9ee262be4eed48a47d1f0e1a635a8b1cbc2a3aa2
   unvanquished_0.28.0.pk3: eca4284bf52ea78ed00fb32c8b536f1966243e2f
+  unvanquished_0.29.0.pk3: d88638a5d3b286881b2d528318f55abc609d8cfe
+  unvanquished_0.30.0.pk3: 80ae2b90a758129afcb8415928c4cfa16ea9c60d
+  unvanquished_0.31.0.pk3: cc45ac951747908b9ebf490e581a9ba5adb1092b
+  unvanquished_0.32.0.pk3: fb11f9f479eee81122f73f0069d8848719419895
+  unvanquished_0.33.0.pk3: 9a51b033d9a1eeb4fb2ea99bb2216410b234b3f9
+  unvanquished_0.34.0.pk3: 8029ca9d3049cb82c4a7e5f471ec48cd1680d45f
+  unvanquished_0.35.0.pk3: 4488b45149c3e00ef3222d1f5a6cfe6292904eeb
+  unvanquished_0.36.0.pk3: 7ffa25d7df45e4ce09e23a8489f984507847beba
+  unvanquished_0.37.0.pk3: 4a8258baadc634f973059d43164401971b6e908b
+  unvanquished_0.38.0.pk3: 0f0ea31d999b4e01afc8e884c24711fccf83855b
+  unvanquished_0.39.0.pk3: 3318352aeba6fc724bcf1374b38fdbe8e02c8153
+  unvanquished_0.40.0.pk3: aed2ad717c48402fc43fdff2e24fc379433b550f
+  unvanquished_0.41.0.pk3: d2bd9060aaa6cd62a7b435173beaa6d4d500dc30
