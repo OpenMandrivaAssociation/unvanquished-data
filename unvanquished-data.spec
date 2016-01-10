@@ -2,7 +2,7 @@
 %define _build_pkgcheck_srpm %{nil}
 
 Name:           unvanquished-data
-Version:        0.41.0
+Version:        0.47.0
 Release:        1
 Summary:        Sci-fi RTS and FPS game
 License:        CC-BY-SA-2.5 and CC-BY-SA-3.0
@@ -39,6 +39,14 @@ Source29:       http://dl.unvanquished.net/pkg/tex-all_2.0.pk3
 Source30:	http://dl.unvanquished.net/pkg/tex-ej01-clean_1.0.pk3
 Source31:	http://dl.unvanquished.net/pkg/tex-ej01-common_1.0.pk3
 Source32:	http://dl.unvanquished.net/pkg/tex-ej01-ice_1.0.pk3
+Source32:       http://dl.unvanquished.net/pkg/unvanquished_0.42.0.pk3
+Source33:       http://dl.unvanquished.net/pkg/unvanquished_0.43.0.pk3
+Source34:	http://dl.unvanquished.net/pkg/unvanquished_0.43.1.pk3
+Source35:       http://dl.unvanquished.net/pkg/unvanquished_0.44.0.pk3
+Source36:       http://dl.unvanquished.net/pkg/unvanquished_0.44.1.pk3
+Source37:       http://dl.unvanquished.net/pkg/unvanquished_0.45.0.pk3
+Source38:       http://dl.unvanquished.net/pkg/unvanquished_0.46.0.pk3
+Source39:       http://dl.unvanquished.net/pkg/unvanquished_0.47.0.pk3
 
 
 BuildArch:      noarch
