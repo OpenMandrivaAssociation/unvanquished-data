@@ -2,7 +2,7 @@
 %define _build_pkgcheck_srpm %{nil}
 
 Name:           unvanquished-data
-Version:        0.54.0
+Version:        0.54.1
 Release:        1
 Summary:        Sci-fi RTS and FPS game
 License:        CC-BY-SA-2.5 and CC-BY-SA-3.0
