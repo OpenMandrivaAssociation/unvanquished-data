@@ -7,7 +7,7 @@ Release:        1
 Summary:        Sci-fi RTS and FPS game
 License:        CC-BY-SA-2.5 and CC-BY-SA-3.0
 Group:          Games/Arcade
-Url:            http://unvanquished.net/
+Url:            https://unvanquished.net/
 
 Source1:        http://dl.unvanquished.net/pkg/unvanquished_0.25.0.pk3
 Source2:        http://dl.unvanquished.net/pkg/unvanquished_0.26.0.pk3
